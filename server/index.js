@@ -5,6 +5,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const VAR = require('../config/variables');
 const { apolloServer } = require('./graphql');
+const { aiHttpAnalyzer } = require('./middleware/ai-http-analyzer');
 
 const app = express();
 
@@ -15,6 +16,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, '../dist')));
+app.use(aiHttpAnalyzer());
 
 apolloServer.applyMiddleware({ app });
 
