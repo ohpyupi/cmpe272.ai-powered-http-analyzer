@@ -1,0 +1,14 @@
+type Contributor {
+    name: String
+    email: String
+    url: String
+}
+
+type AppInfo {
+    name: String
+    description: String
+    version: String
+    homepage: String
+    contributors: [Contributor]
+    dependencies: [String]
+}

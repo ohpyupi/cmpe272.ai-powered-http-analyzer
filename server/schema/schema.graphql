@@ -1,0 +1,5 @@
+# import AppInfo from './app-info.graphql';
+
+type Query {
+    appInfo: AppInfo
+}

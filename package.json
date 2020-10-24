@@ -1,0 +1,74 @@
+{
+  "name": "cmpe272.ai-powered-http-analyzer",
+  "version": "1.0.0",
+  "description": "A proof of concept of AI-powered HTTP analyzer",
+  "main": "server/index.js",
+  "engines": {
+    "node": "~10.16.3",
+    "npm": "~6.9.0"
+  },
+  "scripts": {
+    "lint:app": "eslint app",
+    "lint:server": "eslint server",
+    "lint": "npm run lint:app && npm run lint:server",
+    "start": "node ./server/index.js",
+    "postinstall": "npm run build",
+    "nodemon": "nodemon ./server/index.js",
+    "watch": "webpack --config webpack.dev.js --watch --progress",
+    "build": "npm run lint && webpack --config webpack.prod.js --progress",
+    "dev": "concurrently \"npm run nodemon\" \"npm run watch\""
+  },
+  "author": "ohpyupi@gmail.com",
+  "contributors": [
+    {
+      "name": "Hoseong Lee",
+      "email": "ohpyupi@gmail.com",
+      "url": "https://github.com/ohpyupi"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/client": "^3.2.0",
+    "@graphql-tools/graphql-file-loader": "^6.0.8",
+    "@graphql-tools/load": "^6.0.8",
+    "@graphql-tools/schema": "^6.0.8",
+    "apollo-server-express": "^2.14.2",
+    "body-parser": "^1.17.2",
+    "bulma": "^0.6.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "express-es6-template-engine": "^2.2.3",
+    "graphql": "^15.3.0",
+    "lodash": "^4.17.19",
+    "morgan": "^1.8.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^8.0.0",
+    "chai": "^4.1.2",
+    "concurrently": "^3.5.0",
+    "css-loader": "^0.28.4",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "html-loader": "^0.4.5",
+    "node-sass": "^4.14.1",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "url-loader": "^0.5.9",
+    "webpack": "^4.0.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-merge": "^4.1.1"
+  }
+}
