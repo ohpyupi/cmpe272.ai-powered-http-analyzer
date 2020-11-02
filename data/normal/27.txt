@@ -1,0 +1,12 @@
+GET /webevents/visitWebPage?_mchNc=1604299504572&_mchCn=&_mchId=663-UKQ-998&_mchTk=_mch-sjsu.edu-1604299463369-76196&_mchHo=www.sjsu.edu&_mchPo=&_mchRu=%2Fvisit%2Findex.php&_mchPc=https%3A&_mchVr=159&_mchEcid=&_mchHa=&_mchRe=https%3A%2F%2Fwww.sjsu.edu%2F&_mchQp= HTTP/1.1
+Host: 663-ukq-998.mktoresp.com
+Connection: close
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+Accept: */*
+Origin: https://www.sjsu.edu
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.sjsu.edu/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9

@@ -1,0 +1,11 @@
+GET /dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1031%2Fupload_20061800438978688ZpMwJ.jpg%22&type=nf340_228 HTTP/1.1
+Host: s.pstatic.net
+Connection: close
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://www.naver.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9

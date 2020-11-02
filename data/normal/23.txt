@@ -1,0 +1,14 @@
+GET /o/oauth2/iframerpc?action=checkOrigin&origin=https%3A%2F%2Fwww.linkedin.com&client_id=990339570472-k6nqn1tpmitg8pui82bfaun3jrpmiuhs.apps.googleusercontent.com HTTP/1.1
+Host: accounts.google.com
+Connection: close
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+X-Requested-With: XmlHttpRequest
+Accept: */*
+X-Chrome-ID-Consistency-Request: version=1,client_id=n/a,device_id=834b5242-77e5-430b-b8bd-219e87928df1,signin_mode=all_accounts,signout_mode=show_confirmation
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://accounts.google.com/o/oauth2/iframe
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: 1P_JAR=2020-11-02-06; NID=204=PcYtaYOTOLFO4IjNnNEvWEE8Oc3QJ_l_mAiiwHfjJDlLo1y2uXFazvXZtOejqHZ44kfIr2iNSvIVg1qMuQj60RejcLcgC0XFuluUylQDlLdPGNA2_LeOl8_NEsxFghAHRidsDA3JnjL-Y2oaFG8MpY4dvkihclguMbYea1zSnks; ANID=AHWqTUmUUWS61KzmFAPAR8dvChZw3W1FFy9HlIF2bPMW14FZbIvU-wFawOSectM3

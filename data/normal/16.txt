@@ -1,0 +1,14 @@
+GET /page-data/community/videos.html/page-data.json HTTP/1.1
+Host: reactjs.org
+Connection: close
+Origin: https://reactjs.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+Accept: application/signed-exchange;v=b3;q=0.9,*/*;q=0.8
+Purpose: prefetch
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://reactjs.org/community/support.html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: __cfduid=d8989c646317a3c6ca8bc325a711220fb1604299204; _ga=GA1.2.1854296284.1604299214; _gid=GA1.2.2139229207.1604299214; _gat=1

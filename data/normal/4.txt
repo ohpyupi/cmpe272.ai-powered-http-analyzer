@@ -1,0 +1,12 @@
+GET /widget/app/so?origin=chrome-search%3A%2F%2Flocal-ntp&cn=app&pid=1&spid=243&hl=en HTTP/1.1
+Host: ogs.google.com
+Connection: close
+Origin: chrome-search://local-ntp
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+Accept: application/signed-exchange;v=b3;q=0.9,*/*;q=0.8
+Purpose: prefetch
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
