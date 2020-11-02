@@ -4,6 +4,7 @@ const webpack = require('webpack');
 module.exports = {
 	entry: {
 		app: './app/app.js',
+		['tfjs-vis']: './app/tfjs-vis.js',
 	},
 	output: {
 		filename: '[name].js',

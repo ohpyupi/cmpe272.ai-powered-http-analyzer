@@ -28,6 +28,7 @@ app.use((err, req, res, next) => {
   });
 });
 
+app.get('/tfjs-vis', (req, res) => res.render('tfjs-vis'));
 app.get('*', (req, res) => res.render('index'));
 
 const server = app.listen(VAR.PORT, () => {

@@ -33,6 +33,8 @@
     "@graphql-tools/graphql-file-loader": "^6.0.8",
     "@graphql-tools/load": "^6.0.8",
     "@graphql-tools/schema": "^6.0.8",
+    "@tensorflow/tfjs": "^2.7.0",
+    "@tensorflow/tfjs-vis": "^1.4.3",
     "apollo-server-express": "^2.14.2",
     "body-parser": "^1.17.2",
     "bulma": "^0.6.2",
