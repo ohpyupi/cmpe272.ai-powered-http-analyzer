@@ -1,0 +1,14 @@
+OPTIONS /graphql/MDkOZx26LgCdne-DPL9QLA/Viewer?variables=%7B%22withHighlightedLabel%22%3Afalse%2C%22withUserResult%22%3Afalse%7D HTTP/1.1
+Host: api.twitter.com
+Connection: close
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization,content-type,x-csrf-token,x-guest-token,x-twitter-active-user,x-twitter-client-language
+Origin: https://twitter.com
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: https://twitter.com/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9

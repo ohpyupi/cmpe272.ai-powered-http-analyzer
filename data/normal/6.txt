@@ -1,0 +1,12 @@
+POST /service/update2/json HTTP/1.1
+Host: update.googleapis.com
+Connection: close
+Content-Length: 990
+Content-Type: application/json
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+{"request":{"@os":"win","@updater":"chrome","acceptformat":"crx2,crx3","app":[{"appid":"obedbbhbpmojnkanicioggnmelmoomoc","event":[{"download_time_ms":8017,"downloaded":989506,"downloader":"bits","eventresult":1,"eventtype":14,"nextversion":"20201027.340026928","previousversion":"0.0.0.0","total":989506,"url":"http://redirector.gvt1.com/edgedl/release2/chrome_component/GF75dVwmEt9XE01usGh0kg_20201027.340026928/bFjbjNY_GR1ERqhaghl_RA"},{"eventresult":1,"eventtype":3,"nextfp":"1.135b09a415745201a930991f8eefe2e2239e8f1077b49a3cc152d98633390f70","nextversion":"20201027.340026928","previousversion":"0.0.0.0"}],"version":"20201027.340026928"}],"arch":"x64","dedup":"cr","hw":{"physmemory":16},"lang":"en-US","nacl_arch":"x86-64","os":{"arch":"x86_64","platform":"Windows","version":"10.0.18362.1139"},"prodversion":"84.0.4147.125","protocol":"3.1","requestid":"{dcc1f2f1-de5a-48db-b5f8-a1f579406aca}","sessionid":"{1c7167fc-d79e-474e-ad33-7547bfc48939}","updaterversion":"84.0.4147.125"}}

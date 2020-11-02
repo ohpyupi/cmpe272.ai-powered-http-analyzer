@@ -1,0 +1,18 @@
+POST /youtubei/v1/guide?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 HTTP/1.1
+Host: www.youtube.com
+Connection: close
+Content-Length: 920
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+X-Goog-Visitor-Id: CgtROEI4RlpzajR4MCit1P78BQ%3D%3D
+Content-Type: application/json
+Accept: */*
+Origin: https://www.youtube.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: same-origin
+Sec-Fetch-Dest: empty
+Referer: https://www.youtube.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: VISITOR_INFO1_LIVE=Q8B8FZsj4x0; GPS=1; YSC=x9rDjHA5aSY
+
+{"context":{"client":{"hl":"en","gl":"US","visitorData":"CgtROEI4RlpzajR4MCit1P78BQ%3D%3D","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36,gzip(gfe)","clientName":"WEB","clientVersion":"2.20201030.01.00","osName":"Windows","osVersion":"10.0","browserName":"Chrome","browserVersion":"84.0.4147.125","screenWidthPoints":929,"screenHeightPoints":942,"screenPixelDensity":1,"screenDensityFloat":1,"utcOffsetMinutes":-480,"userInterfaceTheme":"USER_INTERFACE_THEME_DARK","connectionType":"CONN_CELLULAR_4G","mainAppWebInfo":{"graftUrl":"https://www.youtube.com/"}},"request":{"sessionId":"6890413066128528604","internalExperimentFlags":[],"consistencyTokenJars":[]},"adSignalsInfo":{"consentBumpParams":{"consentHostnameOverride":"https://www.youtube.com","urlOverride":""}},"user":{},"clientScreenNonce":"UNDEFINED_CSN"},"fetchLiveState":true}

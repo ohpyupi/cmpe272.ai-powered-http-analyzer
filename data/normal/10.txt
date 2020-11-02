@@ -1,0 +1,12 @@
+GET /docs/react/page-data/get-started/page-data.json HTTP/1.1
+Host: www.apollographql.com
+Connection: close
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.apollographql.com/docs/react/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.448011149.1604299038; _gid=GA1.2.1714671092.1604299038; _gat=1

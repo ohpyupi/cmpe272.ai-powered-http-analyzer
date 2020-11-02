@@ -1,0 +1,542 @@
+[
+  {
+    "requestLength": 595,
+    "argumentLength": 76,
+    "argumentNumber": 2,
+    "pathLength": 42,
+    "specialCharNumberInPath": 15,
+    "fileName": "1.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 581,
+    "argumentLength": 62,
+    "argumentNumber": 2,
+    "pathLength": 28,
+    "specialCharNumberInPath": 6,
+    "fileName": "10.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 755,
+    "argumentLength": 102,
+    "argumentNumber": 2,
+    "pathLength": 63,
+    "specialCharNumberInPath": 13,
+    "fileName": "11.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 760,
+    "argumentLength": 107,
+    "argumentNumber": 2,
+    "pathLength": 68,
+    "specialCharNumberInPath": 17,
+    "fileName": "12.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 727,
+    "argumentLength": 74,
+    "argumentNumber": 2,
+    "pathLength": 35,
+    "specialCharNumberInPath": 10,
+    "fileName": "13.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 1028,
+    "argumentLength": 174,
+    "argumentNumber": 7,
+    "pathLength": 13,
+    "specialCharNumberInPath": 2,
+    "fileName": "14.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 743,
+    "argumentLength": 90,
+    "argumentNumber": 2,
+    "pathLength": 51,
+    "specialCharNumberInPath": 12,
+    "fileName": "15.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 722,
+    "argumentLength": 69,
+    "argumentNumber": 2,
+    "pathLength": 30,
+    "specialCharNumberInPath": 8,
+    "fileName": "16.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 629,
+    "argumentLength": 80,
+    "argumentNumber": 2,
+    "pathLength": 41,
+    "specialCharNumberInPath": 10,
+    "fileName": "17.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 1020,
+    "argumentLength": 182,
+    "argumentNumber": 7,
+    "pathLength": 13,
+    "specialCharNumberInPath": 2,
+    "fileName": "18.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 740,
+    "argumentLength": 76,
+    "argumentNumber": 2,
+    "pathLength": 37,
+    "specialCharNumberInPath": 11,
+    "fileName": "19.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 604,
+    "argumentLength": 85,
+    "argumentNumber": 2,
+    "pathLength": 51,
+    "specialCharNumberInPath": 17,
+    "fileName": "2.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 726,
+    "argumentLength": 81,
+    "argumentNumber": 2,
+    "pathLength": 42,
+    "specialCharNumberInPath": 10,
+    "fileName": "20.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 724,
+    "argumentLength": 71,
+    "argumentNumber": 2,
+    "pathLength": 1,
+    "specialCharNumberInPath": 1,
+    "fileName": "21.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 749,
+    "argumentLength": 91,
+    "argumentNumber": 2,
+    "pathLength": 58,
+    "specialCharNumberInPath": 11,
+    "fileName": "22.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 764,
+    "argumentLength": 107,
+    "argumentNumber": 2,
+    "pathLength": 74,
+    "specialCharNumberInPath": 14,
+    "fileName": "23.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 776,
+    "argumentLength": 123,
+    "argumentNumber": 2,
+    "pathLength": 90,
+    "specialCharNumberInPath": 18,
+    "fileName": "24.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 765,
+    "argumentLength": 108,
+    "argumentNumber": 2,
+    "pathLength": 75,
+    "specialCharNumberInPath": 14,
+    "fileName": "25.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 755,
+    "argumentLength": 102,
+    "argumentNumber": 2,
+    "pathLength": 69,
+    "specialCharNumberInPath": 13,
+    "fileName": "26.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 773,
+    "argumentLength": 88,
+    "argumentNumber": 2,
+    "pathLength": 55,
+    "specialCharNumberInPath": 11,
+    "fileName": "27.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 906,
+    "argumentLength": 253,
+    "argumentNumber": 2,
+    "pathLength": 1,
+    "specialCharNumberInPath": 1,
+    "fileName": "28.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 744,
+    "argumentLength": 62,
+    "argumentNumber": 2,
+    "pathLength": 29,
+    "specialCharNumberInPath": 9,
+    "fileName": "29.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 600,
+    "argumentLength": 81,
+    "argumentNumber": 2,
+    "pathLength": 47,
+    "specialCharNumberInPath": 13,
+    "fileName": "3.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 958,
+    "argumentLength": 124,
+    "argumentNumber": 4,
+    "pathLength": 6,
+    "specialCharNumberInPath": 1,
+    "fileName": "30.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 597,
+    "argumentLength": 78,
+    "argumentNumber": 2,
+    "pathLength": 44,
+    "specialCharNumberInPath": 22,
+    "fileName": "4.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 591,
+    "argumentLength": 72,
+    "argumentNumber": 2,
+    "pathLength": 38,
+    "specialCharNumberInPath": 16,
+    "fileName": "5.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 585,
+    "argumentLength": 66,
+    "argumentNumber": 2,
+    "pathLength": 32,
+    "specialCharNumberInPath": 10,
+    "fileName": "6.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 589,
+    "argumentLength": 70,
+    "argumentNumber": 2,
+    "pathLength": 36,
+    "specialCharNumberInPath": 14,
+    "fileName": "7.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 586,
+    "argumentLength": 67,
+    "argumentNumber": 2,
+    "pathLength": 33,
+    "specialCharNumberInPath": 11,
+    "fileName": "8.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 583,
+    "argumentLength": 64,
+    "argumentNumber": 2,
+    "pathLength": 30,
+    "specialCharNumberInPath": 8,
+    "fileName": "9.txt",
+    "label": "abnormal"
+  },
+  {
+    "requestLength": 364,
+    "argumentLength": 23,
+    "argumentNumber": 2,
+    "pathLength": 40,
+    "specialCharNumberInPath": 9,
+    "fileName": "1.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 524,
+    "argumentLength": 72,
+    "argumentNumber": 3,
+    "pathLength": 48,
+    "specialCharNumberInPath": 9,
+    "fileName": "10.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 556,
+    "argumentLength": 0,
+    "argumentNumber": 0,
+    "pathLength": 51,
+    "specialCharNumberInPath": 8,
+    "fileName": "11.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 639,
+    "argumentLength": 69,
+    "argumentNumber": 2,
+    "pathLength": 51,
+    "specialCharNumberInPath": 8,
+    "fileName": "12.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 559,
+    "argumentLength": 0,
+    "argumentNumber": 0,
+    "pathLength": 24,
+    "specialCharNumberInPath": 3,
+    "fileName": "13.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 497,
+    "argumentLength": 52,
+    "argumentNumber": 1,
+    "pathLength": 24,
+    "specialCharNumberInPath": 5,
+    "fileName": "14.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 1828,
+    "argumentLength": 1346,
+    "argumentNumber": 12,
+    "pathLength": 1030,
+    "specialCharNumberInPath": 279,
+    "fileName": "15.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 662,
+    "argumentLength": 127,
+    "argumentNumber": 4,
+    "pathLength": 47,
+    "specialCharNumberInPath": 8,
+    "fileName": "16.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 467,
+    "argumentLength": 70,
+    "argumentNumber": 1,
+    "pathLength": 74,
+    "specialCharNumberInPath": 11,
+    "fileName": "17.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 425,
+    "argumentLength": 0,
+    "argumentNumber": 0,
+    "pathLength": 10,
+    "specialCharNumberInPath": 2,
+    "fileName": "18.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 1568,
+    "argumentLength": 1018,
+    "argumentNumber": 6,
+    "pathLength": 62,
+    "specialCharNumberInPath": 8,
+    "fileName": "19.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 484,
+    "argumentLength": 45,
+    "argumentNumber": 3,
+    "pathLength": 58,
+    "specialCharNumberInPath": 7,
+    "fileName": "2.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 1182,
+    "argumentLength": 468,
+    "argumentNumber": 8,
+    "pathLength": 209,
+    "specialCharNumberInPath": 31,
+    "fileName": "20.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 729,
+    "argumentLength": 185,
+    "argumentNumber": 12,
+    "pathLength": 138,
+    "specialCharNumberInPath": 27,
+    "fileName": "21.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 783,
+    "argumentLength": 287,
+    "argumentNumber": 12,
+    "pathLength": 38,
+    "specialCharNumberInPath": 9,
+    "fileName": "22.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 1030,
+    "argumentLength": 412,
+    "argumentNumber": 6,
+    "pathLength": 159,
+    "specialCharNumberInPath": 19,
+    "fileName": "23.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 785,
+    "argumentLength": 289,
+    "argumentNumber": 12,
+    "pathLength": 38,
+    "specialCharNumberInPath": 9,
+    "fileName": "24.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 886,
+    "argumentLength": 428,
+    "argumentNumber": 10,
+    "pathLength": 56,
+    "specialCharNumberInPath": 6,
+    "fileName": "25.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 977,
+    "argumentLength": 428,
+    "argumentNumber": 10,
+    "pathLength": 16,
+    "specialCharNumberInPath": 3,
+    "fileName": "26.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 664,
+    "argumentLength": 235,
+    "argumentNumber": 13,
+    "pathLength": 258,
+    "specialCharNumberInPath": 60,
+    "fileName": "27.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 689,
+    "argumentLength": 82,
+    "argumentNumber": 1,
+    "pathLength": 120,
+    "specialCharNumberInPath": 15,
+    "fileName": "28.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 557,
+    "argumentLength": 162,
+    "argumentNumber": 5,
+    "pathLength": 28,
+    "specialCharNumberInPath": 7,
+    "fileName": "29.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 405,
+    "argumentLength": 43,
+    "argumentNumber": 2,
+    "pathLength": 47,
+    "specialCharNumberInPath": 9,
+    "fileName": "3.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 1038,
+    "argumentLength": 293,
+    "argumentNumber": 7,
+    "pathLength": 120,
+    "specialCharNumberInPath": 15,
+    "fileName": "30.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 514,
+    "argumentLength": 67,
+    "argumentNumber": 5,
+    "pathLength": 81,
+    "specialCharNumberInPath": 18,
+    "fileName": "4.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 533,
+    "argumentLength": 0,
+    "argumentNumber": 0,
+    "pathLength": 1,
+    "specialCharNumberInPath": 1,
+    "fileName": "5.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 1361,
+    "argumentLength": 990,
+    "argumentNumber": 1,
+    "pathLength": 21,
+    "specialCharNumberInPath": 3,
+    "fileName": "6.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 412,
+    "argumentLength": 0,
+    "argumentNumber": 0,
+    "pathLength": 1,
+    "specialCharNumberInPath": 1,
+    "fileName": "7.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 553,
+    "argumentLength": 134,
+    "argumentNumber": 2,
+    "pathLength": 148,
+    "specialCharNumberInPath": 24,
+    "fileName": "8.txt",
+    "label": "normal"
+  },
+  {
+    "requestLength": 436,
+    "argumentLength": 0,
+    "argumentNumber": 0,
+    "pathLength": 39,
+    "specialCharNumberInPath": 4,
+    "fileName": "9.txt",
+    "label": "normal"
+  }
+]

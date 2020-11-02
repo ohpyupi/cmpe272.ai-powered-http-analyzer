@@ -1,0 +1,19 @@
+GET /graphql/MDkOZx26LgCdne-DPL9QLA/Viewer?variables=%7B%22withHighlightedLabel%22%3Afalse%2C%22withUserResult%22%3Afalse%7D HTTP/1.1
+Host: api.twitter.com
+Connection: close
+authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA
+x-twitter-client-language: en
+x-csrf-token: 72d6126d311fa03e5e5e57b646d57271
+x-guest-token: 1323154230450950145
+x-twitter-active-user: yes
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+content-type: application/json
+Accept: */*
+Origin: https://twitter.com
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://twitter.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: personalization_id="v1_tnaaWbimaOdclFnnhtNHRQ=="; guest_id=v1%3A160429952569145210; gt=1323154230450950145; ct0=72d6126d311fa03e5e5e57b646d57271; _ga=GA1.2.1757717671.1604299529; _gid=GA1.2.1198853064.1604299529

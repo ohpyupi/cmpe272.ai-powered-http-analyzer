@@ -1,0 +1,13 @@
+GET /visit/index.php HTTP/1.1
+Host: www.sjsu.edu
+Connection: close
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Referer: https://www.sjsu.edu/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.648105530.1604299463; _gid=GA1.2.1086338117.1604299463; _gat_UA-21659030-2=1; _mkto_trk=id:663-UKQ-998&token:_mch-sjsu.edu-1604299463369-76196; _cap=2074627141604299464; _caps=386361604299464; visitor_id300271=141677859; visitor_id300271-hash=f571cb6a19c332dd23b53863fc453e53b93e3d8ad89e804207b257d4f9500d2ad68b9989e7b16192ce636886b6cd47de61a4c492; __adroll_fpc=ba97a40cafe4ead4437d0a811a21e579-1604299474138; __ar_v4=
