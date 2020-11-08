@@ -2,4 +2,5 @@
 *swo
 node_modules
 dist/app.js*
+dist/tfjs-vis.js
 npm-debug.log
