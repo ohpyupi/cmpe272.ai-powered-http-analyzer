@@ -4,6 +4,7 @@ const httpStringParser = require('http-string-parser');
 const _ = require('lodash');
 const cookieParser = require('cookie');
 const { REGEX } = require('../config/variables');
+const { getFeatureFromRawHttpRequest } = require('../server/middleware/ai-http-analyzer/utils');
 
 const getAllFileInDir = (dirPath) => new Promise((resolve, reject) => {
     fs.readdir(path.resolve(__dirname, dirPath), (err, filenames) => {
@@ -23,27 +24,6 @@ const getFileContent = (filePath) => new Promise((resolve, reject) => {
     });
 });
 
-const analyzeBodyParams = (parsedHttp) => {
-    const contentType = _.get(parsedHttp, `headers['Content-Type']`, '');
-    if (contentType.includes('application/json')) {
-        const parsedJson = JSON.parse(parsedHttp.body);
-        const bodyParamsNumber = Object.keys(parsedJson).length;
-        const bodyParamsLength = parsedHttp.body.length;
-        return {
-            bodyParamsNumber,
-            bodyParamsLength,
-        };
-
-    }
-    const bodyParams = new URLSearchParams(parsedHttp.body || '');
-    const bodyParamsNumber = Array.from(bodyParams).length;
-    const bodyParamsLength = bodyParams.toString().length;
-    return {
-        bodyParamsLength,
-        bodyParamsNumber,
-    };
-};
-
 const getFeaturesFromHttpRequests = async (dirPath, label) => {
     const fileNames = await getAllFileInDir(dirPath);
     const dataset = [];
@@ -58,30 +38,8 @@ const getFeaturesFromHttpRequests = async (dirPath, label) => {
             label,
         };
         const fileContent = await getFileContent(`${dirPath}/${fileName}`);
-        const httpRequest = fileContent.toString();
-        const parsedHttp = httpStringParser.parseRequest(httpRequest);
-        // HTTP Argument: [1] Body Parameter
-       const {
-            bodyParamsNumber,
-            bodyParamsLength,
-        } = analyzeBodyParams(parsedHttp);
-        // HTTP Argument: [2] URL Parameter
-        const urlObj = new URL(parsedHttp.uri, 'https://www.example.com');
-        const urlParamsLength = urlObj.search.length;
-        const urlParamsNumber = Array.from(urlObj.searchParams).length;
-        const urlPath = urlObj.pathname + urlObj.search;
-        // HTTP Argument: [3] Cookie
-        const cookieString = _.get(parsedHttp, 'headers.Cookie', '');
-        const cookieObj = cookieParser.parse(cookieString);
-        const cookieNumber = Object.keys(cookieObj).length;
-        const cookieLength = cookieString.length;
-
-        data.argumentLength = bodyParamsLength + urlParamsLength + cookieLength;
-        data.requestLength = httpRequest.length;
-        data.argumentNumber = bodyParamsNumber + urlParamsNumber + cookieNumber;
-        data.requestLength = httpRequest.length;
-        data.pathLength = urlPath.length;
-        data.specialCharNumberInPath = urlPath.match(REGEX.SPECIAL_CHARACTERS).length;
+        const rawHttpRequest = fileContent.toString();
+        Object.assign(data, getFeatureFromRawHttpRequest(rawHttpRequest));
         dataset.push(data);
     }
     return dataset;

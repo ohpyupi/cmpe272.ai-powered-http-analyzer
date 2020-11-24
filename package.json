@@ -12,7 +12,7 @@
     "lint:server": "eslint server",
     "lint": "npm run lint:app && npm run lint:server",
     "start": "node ./server/index.js",
-    "postinstall": "npm run build",
+    "postinstall": "",
     "nodemon": "nodemon ./server/index.js",
     "watch": "webpack --config webpack.dev.js --watch --progress",
     "build": "npm run lint && webpack --config webpack.prod.js --progress",
@@ -47,7 +47,9 @@
     "prop-types": "^15.7.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "cookie": "^0.4.1",
+    "http-string-parser": "0.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
@@ -59,7 +61,6 @@
     "babel-loader": "^8.0.0",
     "chai": "^4.1.2",
     "concurrently": "^3.5.0",
-    "cookie": "^0.4.1",
     "css-loader": "^0.28.4",
     "eslint": "^7.2.0",
     "eslint-config-airbnb-base": "^14.1.0",
@@ -67,7 +68,6 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.20.0",
     "html-loader": "^0.4.5",
-    "http-string-parser": "0.0.6",
     "node-sass": "^4.14.1",
     "nodemon": "^1.11.0",
     "sass-loader": "^6.0.6",
