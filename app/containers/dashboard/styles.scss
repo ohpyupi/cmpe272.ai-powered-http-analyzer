@@ -1,0 +1,10 @@
+#dashboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  #pie-chart-container {
+    margin-top: 60px;
+    width: 600px;
+    height: 500px;
+  }
+}

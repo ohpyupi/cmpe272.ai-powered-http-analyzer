@@ -1,5 +1,7 @@
 # import AppInfo from './app-info.graphql';
+# import HttpRequestLog from './http-request-log.graphql';
 
 type Query {
     appInfo: AppInfo
+    httpRequestLog: HttpRequestLog
 }
