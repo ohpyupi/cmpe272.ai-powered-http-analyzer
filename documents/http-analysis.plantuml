@@ -1,0 +1,34 @@
+@startuml
+title HTTP Analyzer
+actor Hacker
+participant ConsumerClient
+box ConsumerServer
+participant HTTPAnalyserLibrary as H
+participant ConsumerServerAPI as A
+end box
+box HttpAnalyserServer
+participant HttpAnalyserAPI as HA
+participant MLModel
+end box
+
+group Authentication
+A -> HA: ClientId and ClientSecret
+HA -> A: Return AccessToken
+end
+
+...
+
+Hacker -> ConsumerClient: malicious payload
+ConsumerClient -> H: Payload Intercepted
+H -> A: Relay the payload
+A -> ConsumerClient: OK
+ConsumerClient -> Hacker: OK
+group ML Prediction (Asynchronous)
+H -> HA: Relay the payload + AccessToken
+HA -> MLModel: Analyze the payload
+MLModel -> HA: Normal/Abnormal
+HA -> H: OK
+H -> A: Normal/Abnormal
+end
+
+@enduml

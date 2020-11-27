@@ -23,7 +23,7 @@ And training data has been manually collected using the white hacking education 
 
 
 ### Architecture
-TBD
+<img src="./documents/http-analyzer.png"/>
 
 ### Future Works
 The dataset used to train the ML model was too small to make the model mature enough and perform well. So in the future work, a new dataset would be gathered which would be more than 10,000.
