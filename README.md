@@ -23,6 +23,10 @@ And training data has been manually collected using the white hacking education 
 
 
 ### Architecture
+AI-powered HTTP Analyzer will contain maily three components (1) client-side library, (2) API, and (3) Machine Learning model. The client-side library would be injected to the consumer's codebase. And it will be used by the consumer's server as an interface to the analyzer's API.
+
+The client-side library would capture raw HTTP request strings and make a network to the analyzer API asynchronously. Then the response would be returned to the consumer's server. And the consumer's server can process the result for their own purpose. For example, the consumer can store the prediction results in their own database and use it to make a monitoring and also make alert rules based on the prediction results.
+
 <img src="./documents/http-analyzer.png"/>
 
 ### Future Works
