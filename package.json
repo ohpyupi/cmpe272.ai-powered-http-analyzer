@@ -15,7 +15,7 @@
     "postinstall": "",
     "nodemon": "nodemon ./server/index.js",
     "watch": "webpack --config webpack.dev.js --watch --progress",
-    "build": "npm run lint && webpack --config webpack.prod.js --progress",
+    "build": "webpack --config webpack.prod.js --progress",
     "dev": "concurrently \"npm run nodemon\" \"npm run watch\"",
     "create-dataset": "node ./bin/process-http-request-samples.js"
   },
