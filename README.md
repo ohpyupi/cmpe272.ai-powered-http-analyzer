@@ -21,6 +21,9 @@ In order to train a ML model and use the model to predict the maliciousness of H
 
 And training data has been manually collected using the white hacking education tool Port Swigger[4]. Only 60 dataset has been collected where 30 of them are normal HTTP requests and the other 30 are abnormal HTTP requests.
 
+### Demo
+<img src="./documents/ezgif.com-video-to-gif.gif" />
+<img src="./documents/http-analyzer-server-logs.gif" />
 
 ### Architecture
 AI-powered HTTP Analyzer will contain maily three components (1) client-side library, (2) API, and (3) Machine Learning model. The client-side library would be injected to the consumer's codebase. And it will be used by the consumer's server as an interface to the analyzer's API.
